@@ -1,0 +1,9 @@
+dependencies:
+  pre:
+    - gem install bundler
+machine:
+  ruby:
+    version: 2.3.1
+test:
+  override:
+    - bundle exec rspec spec
