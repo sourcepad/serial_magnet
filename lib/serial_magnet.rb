@@ -1,5 +1,4 @@
 require 'dish'
-require 'byebug'
 require 'require_all'
 spec = Gem::Specification.find_by_name("serial_magnet")
 gem_root = spec.gem_dir
