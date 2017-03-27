@@ -42,6 +42,10 @@ module SerialMagnet
       perform_get('volume', 'volumes')
     end
 
+    def all_volumes
+      perform_get_all('volume', 'volumes')
+    end
+
     def verify_param param
       raise RestClient::ResourceNotFound if param.to_s.empty?
     end
